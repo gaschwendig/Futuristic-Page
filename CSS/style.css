@@ -1,0 +1,200 @@
+
+
+body {
+	margin: 0;
+  height: 100%;
+  background: linear-gradient(#696969,#483D8B);
+ 
+}
+
+html {
+	height: auto;
+}
+
+.main {
+	
+	height: 100%;
+}
+
+.top {
+	min-width: 994px;
+	height: 300px;
+	display: flex;
+	align-items: center;
+	
+}
+
+.topcontainer {
+	
+	width: 960px;
+	margin: 0 auto;
+	
+	
+}
+
+.headname {
+	width: 60%;
+	margin: 0 auto;
+	font-family: 'Bungee Inline', cursive;
+	text-align: center;
+	font-size: 30px;
+	
+}
+
+.nav {
+	
+	list-style: none;
+	text-decoration: none;
+	text-align: center;
+	margin-right: 100px;
+	
+	
+	
+}
+
+.nav li {
+	display: inline-block;
+	margin-left: 50px;
+	font-family: 'Six Caps' sans serif;
+	font-weight: bold;
+	color: black;
+	margin-bottom: 20px;
+}
+
+.middle {
+	height: 450px;
+	background-image: url('../img/cyborg1.jpg');
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	min-width: 994px;
+
+}
+
+.midcontent {
+	
+	width: 800px;
+	color: white;
+	margin: 0 auto;
+	
+	
+	
+	
+}
+
+.midcontent div {
+	
+	width: 50%;
+	text-align: left;
+	float: right;
+}
+
+
+
+.midcontent h3 {
+	
+	display: inline-block;
+	margin-bottom: 20px;
+	padding: 15px;
+	background-color: #B0C4DE;
+	
+	
+	
+}
+
+
+.midcontent span {
+	display: inline-block;
+	margin-bottom: 20px;
+	padding: 10px 10px;
+	background-color: #228B22;
+	font-size: 20px;
+	
+}
+
+.midcontent span:last-child {
+	
+	background-color: #40E0D0; 
+}
+
+.bottom {
+	
+	height: 300px;
+	font-size: 25px;
+	padding: 40px;
+	
+}
+
+.pics {
+	
+	width: 960px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.pics p {
+	
+	display: block;
+	text-align: center;
+}
+
+.pics div {
+	width: 30%;
+}
+
+.pics img {
+	width: 100%;
+	
+	border: 2px solid black;
+}
+
+.footer {
+	
+	min-width:994px;
+	background-color: black;
+	height: 120px;
+	color: white;
+	margin-bottom: 15px;
+	display: flex;
+	align-items: center;
+	
+	
+}
+
+.footerstuff {
+	
+	width: 960px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	
+	
+}
+
+.footerstuff p {
+	
+	font-size: 18px;
+}
+
+.icons {
+	font-size: 30px;
+	width: 35%;
+	display: flex;
+	justify-content: space-between;
+	margin-left: auto;
+	
+	
+	
+}
+
+.soc {
+	
+	border: 3px solid white;
+	padding: 15px;
+	
+}
+
+
+
